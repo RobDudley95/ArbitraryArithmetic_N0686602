@@ -34,9 +34,9 @@ BOOST_AUTO_TEST_CASE( addition_small )
 
 BOOST_AUTO_TEST_CASE( addition_large )
 {
-    Integer x();
-    Integer y();
-    Integer z();
+    Integer x(339487983274329);
+    Integer y(29347983748419);
+    Integer z(368835967022748);
     
     BOOST_CHECK_EQUAL( add( x,y ), z );
     if ( add( x,y ) != z )
